@@ -1,0 +1,35 @@
+<!-- templates/blog/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/images.png' %}">
+    <title>Accueil - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/connexion">Connexion</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="moving-text">
+            <div>Bienvenue</div>
+            <div>dans</div>
+            <div>mon Portfolio</div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Portfolio</p>
+    </footer>
+</body>
+</html>
